@@ -1,0 +1,28 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ext js,graphql,json"
+  },
+  "keywords": [],
+  "author": "JDH",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.9.16",
+    "graphql": "^14.5.8",
+    "graphql-import": "^0.7.1",
+    "knex": "^0.20.8",
+    "mysql": "^2.18.1",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "nodemonConfig": {
+    "env": {
+      "STAGE": "development"
+    }
+  }
+}

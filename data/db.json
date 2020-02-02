@@ -1,0 +1,44 @@
+{
+    "perfis": [
+        {
+            "id": "d37699cf-4db0-4e2c-8d1e-5bf8049a45d9",
+            "nome": "USER"
+        },
+        {
+            "id": "fb83d67e-86cf-4128-968e-a608a88583cb",
+            "nome": "ADMIN"
+        }
+    ],
+    "usuarios": [
+        {
+            "id": "4cc1c86a-23dd-460f-b78d-8758c5445fe4",
+            "nome": "José Daniel Herszenhorn",
+            "email": "jose.daniel@pitang.com",
+            "idade": 38,
+            "salario_real": 1500.99,
+            "vip": true,
+            "status": "ATIVO",
+            "perfil_id": "fb83d67e-86cf-4128-968e-a608a88583cb"
+        },
+        {
+            "id": "1688c804-6573-4001-8cd6-df073fe4ba5a",
+            "nome": "nome1",
+            "email": "email1@gmail.com",
+            "idade": 54,
+            "salario": 10,
+            "vip": true,
+            "status": "INATIVO",
+            "perfil_id": "d37699cf-4db0-4e2c-8d1e-5bf8049a45d9"
+        },
+        {
+            "id": "f982256d-aa90-4318-b75e-912a87952711",
+            "nome": "nome2",
+            "email": "email2@gmail.com",
+            "idade": 33,
+            "salario": 4,
+            "vip": true,
+            "status": "BLOQUEADO",
+            "perfil_id": "d37699cf-4db0-4e2c-8d1e-5bf8049a45d9"
+        }
+    ]
+}
